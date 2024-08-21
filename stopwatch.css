@@ -1,0 +1,56 @@
+body{
+    height:100vh;
+    background: url('./images/project7.jpeg')no-repeat center center/cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width:60%;
+    height:250px;
+    background-color: #0000ff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+
+
+}
+#timer{
+    width:100%;
+    font-size:75px;
+    text-align: center;
+    margin:0 auto;
+    padding:35px;
+
+}
+.buttons{
+    text-align: center;
+
+}
+button{
+    margin:0 10px;
+    text-align: center;
+    border: none;
+}
+button i{
+ font-size: 2rem;
+ padding: 10px;
+ color:#fff;
+ width:50px;
+ cursor:pointer;
+}
+#play{
+    background-color:green;
+}
+#pause{
+    background-color: #ffa500;
+}
+#reset{
+    background-color: #ff0000;
+}
+footer {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-weight: bold;
+}
