@@ -1,6 +1,6 @@
 body{
     height:100vh;
-    background: url('./images/project7.jpeg')no-repeat center center/cover;
+    background: url('./project7.jpeg')no-repeat center center/cover;
     display:flex;
     justify-content: center;
     align-items: center;
